@@ -1,0 +1,54 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+li a{
+    height: 18rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+.favorite1{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+.not{
+    color: grey;
+}
+.productfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cookTime{
+    font-size: .8rem;
+    flex: 3;
+    text-align: left;
+}
+.price{
+    color: #414141;
+    margin-top: .7rem;
+}
+.name{
+    color: darkred;
+}
